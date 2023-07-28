@@ -56,7 +56,7 @@ function lessColorToConst (config) {
       visitor: {
         StringLiteral(path) {
           const value = path.node.value;
-          if (cssNameMap[value]) {
+          if (cssNameMap.hasOwnProperty(value)) {
             debug && console.log('lessColorToConst', cssNameMap[value])
             path.replaceWith(t.stringLiteral(cssNameMap[value]));
           }
