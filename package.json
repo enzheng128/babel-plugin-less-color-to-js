@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-less-color-to-js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,6 +8,10 @@
   },
   "author": "zhengen",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/enzheng128/babel-plugin-less-color-to-js"
+  },
   "devDependencies": {
     "less": "^4.1.3",
     "postcss": "^8.4.27"
