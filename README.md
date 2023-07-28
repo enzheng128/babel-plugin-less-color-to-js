@@ -48,7 +48,7 @@ Be aware that this plugin affects all string literals, not just those used in st
 
 ## Notes
 
-- If the LESS file or JavaScript files are updated during the build process, you may need to restart the build to ensure the accuracy of the color values.
+- If the LESS file are updated during the build process, you may need to restart the build to ensure the accuracy of the color values.
 
 - This plugin can only handle color variables defined in the LESS file. If your color values are defined in JavaScript or in CSS, SCSS, Stylus, or other style files, this plugin may not be able to handle them correctly.
 
