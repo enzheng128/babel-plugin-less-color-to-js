@@ -48,8 +48,6 @@ Be aware that this plugin affects all string literals, not just those used in st
 
 ## Notes
 
-- Since this plugin reads the LESS file with `fs.readFileSync` and uses synchronous methods of LESS to parse and render, it may have an impact on build performance. For large projects, consider using asynchronous methods and leveraging caching for better performance.
-
 - If the LESS file or JavaScript files are updated during the build process, you may need to restart the build to ensure the accuracy of the color values.
 
 - This plugin can only handle color variables defined in the LESS file. If your color values are defined in JavaScript or in CSS, SCSS, Stylus, or other style files, this plugin may not be able to handle them correctly.
