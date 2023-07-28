@@ -1,0 +1,15 @@
+{
+  "name": "babel-plugin-less-color-to-js",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zhengen",
+  "license": "ISC",
+  "devDependencies": {
+    "less": "^4.1.3",
+    "postcss": "^8.4.27"
+  }
+}
